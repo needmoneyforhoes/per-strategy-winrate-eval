@@ -21,8 +21,8 @@ import json, math, sys, os, pickle
 import numpy as np
 from collections import defaultdict
 
-sys.path.insert(0, '/home/polybot/polymarket-bot')
-os.chdir('/home/polybot/polymarket-bot/data')
+sys.path.insert(0, '.')
+os.chdir('./data')
 
 # Load
 print("Loading models...")
