@@ -38,3 +38,8 @@ Not self-contained. Reads three artifacts from the private polymarket-data repo,
 - `market_recap_history.jsonl`: per-market fire records (strategy, side, entry, hypo PnL, gate flags).
 
 None are committed; all `*.pkl` / `*.jsonl` / `*.json` are gitignored. Paths in `per_strategy_wr.py` are currently hardcoded to the engine checkout and `./data`; repoint them before running.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/per-strategy-winrate-eval/issues/new). Pull requests are welcome too.
